@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    /* Output declarations only. */
+    "outDir": "build",
+    "declaration": true,
+    "emitDeclarationOnly": true,
+
+    /* Avoid publishing partially built code. */
+    "noEmitOnError": true,
+
+    /*
+      Turn on all settings that make TypeScript stricter,
+      so we catch as many things at build time as possible.
+    */
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "files": ["src/index.ts"]
+}

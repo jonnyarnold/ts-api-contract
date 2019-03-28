@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    /* Target ES5 for browsers, and polyfill modern features. */
+    "target": "es5",
+    "lib": ["dom", "es2017"],
+    "moduleResolution": "node",
+
+    /* This is a test package: don't emit. */
+    "noEmit": true,
+
+    /*
+      Turn on all settings that make TypeScript stricter,
+      so we catch as many things at build time as possible.
+    */
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "files": ["client/client.ts", "server/server.ts"]
+}

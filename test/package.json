@@ -1,0 +1,12 @@
+{
+  "name": "ts-api-contract-test",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "test": "tsc"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.1",
+    "typescript": "^3.3.4000"
+  }
+}
